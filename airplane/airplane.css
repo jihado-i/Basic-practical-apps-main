@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:-40px;
+}
+.road img{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+}
+.airplane img{
+    box-sizing: border-box;
+    width: 35%;
+    position: absolute;
+    bottom: 40px;
+    right: -450px;
+    transition: ease-out;
+    animation-name: airplane_takeoff ;
+    animation-delay: .5s;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    transform-origin: 100% 50%;
+}
+@keyframes airplane_takeoff {
+    0%{transform: translateX(-0px) translateY(0px) rotate(0);}
+    30%{transform: translateX(-0px) translateY(-0px) rotate(0deg);}
+    100%{transform: translateX(-2000px) translateY(-230px) rotate(14deg);}
+}
