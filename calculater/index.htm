@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calclulater</title>
+</head>
+<body>
+    <!-- First div (Ensure All html code) -->
+    <div class="container">
+            <!-- input - output Div -->
+        <div class="output">
+            <input type="text" id="score" placeholder="0">
+        </div>
+        <!-- buttons Div -->
+        <div class="buttons">
+            <!-- First buttons Div -->
+            <div class="first_line">
+                        <!-- C = 2rows -->
+                <button id="c"    onclick="document.getElementById('score').value = '';">C</button>
+                <button           onclick="document.getElementById('score').value += '0';">0</button>
+                <button           onclick="document.getElementById('score').value += '.';">.</button>
+                <button id="ope1" onclick="document.getElementById('score').value += ' + ';">+</button>
+            </div>
+                <!-- Second buttons Div -->
+            <div class="second_line">
+                <button onclick="document.getElementById('score').value += '3';">3</button>
+                <button onclick="document.getElementById('score').value += '2';">2</button>
+                <button onclick="document.getElementById('score').value += '1';">1</button>
+                <button id="ope2" onclick="document.getElementById('score').value += ' - ';">-</button>
+            </div>
+                <!-- Third buttons Div -->
+            <div class="third_line">
+                <button onclick="document.getElementById('score').value += '6';">6</button>
+                <button onclick="document.getElementById('score').value += '5';">5</button>
+                <button onclick="document.getElementById('score').value += '4';">4</button>
+                <button id="ope3" onclick="document.getElementById('score').value += '*';">x</button>
+            </div>
+                <!-- Fourth buttons Div -->
+
+            <div class="fourth_line">
+                <button onclick="document.getElementById('score').value += '9';">9</button>
+                <button onclick="document.getElementById('score').value += '8';">8</button>
+                <button onclick="document.getElementById('score').value += '7';">7</button>
+                <button  id="ope4" onclick="document.getElementById('score').value += '/';">/</button>
+            </div>
+            <!-- Fivth buttons Div -->
+            <div class="fivth_line">
+                <!-- = =2rows-->
+                <button id="equal" onclick="document.getElementById('score').value = eval(document.getElementById('score').value);">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
