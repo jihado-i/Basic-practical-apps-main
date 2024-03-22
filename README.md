@@ -2,7 +2,6 @@
 Welcome to my basic projects repository! Here you'll find several simple projects to help you learn and experiment with web development concepts. Feel free to explore each project and contribute if you have any improvements or ideas!
 
 ## Projects
-
 ### 1. Learning Page
 - Description: A simple web page designed for learning purposes.
 - Technologies Used: HTML, CSS, JavaScript
