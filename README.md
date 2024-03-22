@@ -36,10 +36,8 @@ Welcome to my basic projects repository! Here you'll find several simple project
 - Technologies Used: HTML, CSS, JavaScript
 
 ## Usage
-
 Each project is contained within its own directory. You can navigate to each project directory to view its source code and run it locally on your machine.
 
 ## Contributing
-
 Contributions are welcome! If you have any ideas for improvements or new projects, feel free to open an issue or submit a pull request.
 
