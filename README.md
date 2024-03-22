@@ -43,6 +43,3 @@ Each project is contained within its own directory. You can navigate to each pro
 
 Contributions are welcome! If you have any ideas for improvements or new projects, feel free to open an issue or submit a pull request.
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
