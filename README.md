@@ -7,6 +7,7 @@ Welcome to my basic projects repository! Here you'll find several simple project
 - Technologies Used: HTML, CSS, JavaScript
 
 
+
 ### 2. Learning Website
 - Description: A small website aimed at facilitating learning.
 - Technologies Used: HTML, CSS, JavaScript
